@@ -1,0 +1,17 @@
+.app-header {
+  display: flex;
+  background-color: var(--pmCol4);
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.theme-button {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  padding: 0;
+  border: none;
+}

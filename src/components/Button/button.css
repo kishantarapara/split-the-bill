@@ -1,0 +1,19 @@
+@import "../../App.css";
+
+button {
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 5px;
+  width: 90px;
+}
+
+.primary {
+  background-color: var(--pmCol2);
+  color: var(--pmCol5);
+}
+
+.secondary {
+  border: 1px solid var(--pmCol2);
+  color: var(--pmCol2);
+  background-color: var(--pmCol5);
+}

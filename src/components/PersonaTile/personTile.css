@@ -1,0 +1,32 @@
+@import "../../App.css";
+
+.person-tile {
+  display: flex;
+  padding: 10px;
+  gap: 15px;
+  align-items: center;
+  height: 60px;
+  width: max-content;
+}
+
+.person-tile:nth-child(even) {
+  background-color: var(--pmCol4);
+}
+
+.circular-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circular-image img {
+  width: 100%;
+}
+
+.name-msg-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}

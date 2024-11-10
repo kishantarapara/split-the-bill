@@ -1,0 +1,11 @@
+.persons-panel {
+  gap: 20px;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-button {
+  display: flex;
+  justify-content: flex-end;
+}

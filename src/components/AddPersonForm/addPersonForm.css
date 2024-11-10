@@ -1,0 +1,23 @@
+.add-friend-form {
+  padding: 10px;
+  background-color: var(--pmCol4);
+  border-radius: 5px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 5px 10px;
+}
+
+.add-person-button {
+  text-align: right;
+}
+
+.add-person-button button {
+  width: 58%;
+}
